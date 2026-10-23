@@ -1,0 +1,18 @@
+{
+  "name": "Sunny Block: AI Night",
+  "slug": "sunny-block-ai-night",
+  "tagline": "The Gremlin King, an AI villain, designs a night just for you from your last runs, then debriefs you. Light up the street and outsmart him.",
+  "description": "Sunny Block: AI Night is a short solar-street platformer where your opponent is an AI.\n\n• AI NIGHT (main mode): tell the Gremlin King what kind of night you want (\"spooky but fair\", \"a leech raid\", \"go easy, I'm learning\") or leave it blank. He reads your recent runs (stars, lit %, gremlins unmasked, visitors you treated by mistake, tricks you used or ignored) and builds a personal level: difficulty, houses, day length, weather, every gremlin wave and its timing, how many trick-or-treaters are gremlins in disguise. Each plan comes with a name, a taunt and his scheme explained.\n• Play it: by day Solarchik the solar robot builds panels and catches sun sparks to charge the street battery; at night gremlins come to unplug the houses. Drop a Mirror Decoy to make them dizzy, stomp them, and unmask the gremlins hiding among the trick-or-treaters.\n• Debrief: after the night the Gremlin King reacts in character and Coach Solarchik gives three concrete tips based on what actually happened. Press Rematch and he adapts the next night to how you played.\n• Classic mode: five hand-made days (MON–FRI) and a tutorial also work offline.\n\nAI on Anna: every AI night uses Anna's LLM (anna.llm.complete) twice: once to design the level (validated and clamped so it is always playable) and once for the debrief. Run history syncs with anna.storage. No external servers, no trackers.\n\nMade by Solar DePIN Hub (Ukraine).",
+  "category": "entertainment",
+  "homepage_url": "https://github.com/Solar-DePIN-Hub/anna-sunny-block",
+  "support_url": "https://github.com/Solar-DePIN-Hub/anna-sunny-block/issues",
+  "privacy_url": "https://github.com/Solar-DePIN-Hub/anna-sunny-block/blob/main/PRIVACY.md",
+  "screenshots": [
+    "https://raw.githubusercontent.com/Solar-DePIN-Hub/anna-sunny-block/main/listing/01-title.png",
+    "https://raw.githubusercontent.com/Solar-DePIN-Hub/anna-sunny-block/main/listing/02-ai-plan.png",
+    "https://raw.githubusercontent.com/Solar-DePIN-Hub/anna-sunny-block/main/listing/03-ai-night.png",
+    "https://raw.githubusercontent.com/Solar-DePIN-Hub/anna-sunny-block/main/listing/04-ai-debrief.png",
+    "https://raw.githubusercontent.com/Solar-DePIN-Hub/anna-sunny-block/main/listing/05-tricked-gremlins.png",
+    "https://raw.githubusercontent.com/Solar-DePIN-Hub/anna-sunny-block/main/listing/06-perfect-night.png"
+  ]
+}

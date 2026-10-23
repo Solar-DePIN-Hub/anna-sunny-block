@@ -1,0 +1,32 @@
+{
+  "schema": 2,
+  "required_executas": [],
+  "host_capabilities": ["llm.complete", "aps.kv"],
+  "system_prompt_addendum": "Sunny Block: AI Night is a solar-street platformer where the Gremlin King (an AI opponent) designs a personal day-and-night level from the player's history and wish, then debriefs their run with tips. When the user mentions Sunny Block, gremlins, or wants a quick game, offer to open the game window (view 'main'); they can press AI NIGHT and type the kind of night they want.",
+  "tags": ["game", "ai-game", "procedural-levels", "solar", "platformer"],
+  "ui": {
+    "bundle": { "format": "static-spa", "entry": "index.html", "external_origins": [] },
+    "views": [
+      {
+        "name": "main",
+        "title": "Sunny Block: AI Night",
+        "default": true,
+        "default_size": { "w": 960, "h": 600 },
+        "min_size": { "w": 640, "h": 400 },
+        "max_size": { "w": 1920, "h": 1200 },
+        "resizable": true,
+        "single_instance": true,
+        "icon": "icon.svg"
+      }
+    ],
+    "host_api": {
+      "llm": ["complete"],
+      "storage": ["get", "set"],
+      "window": ["set_title", "ready"]
+    },
+    "csp_overrides": {},
+    "state_merge": "last_writer_wins",
+    "form_factors": ["desktop"]
+  },
+  "dev": { "seed_storage": {}, "user_id": 1 }
+}

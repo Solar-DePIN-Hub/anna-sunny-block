@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Sunny Block: AI Night</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ccircle cx=%2250%22 cy=%2250%22 r=%2240%22 fill=%22%23ffd166%22/%3E%3C/svg%3E">
+<meta name="description" content="Storm gremlins play tricks on the power. Trick them back with Mirror Decoys, then sort trick-or-treaters from gremlins at night.">
+<style>
+  html,body{margin:0;height:100%;background:radial-gradient(ellipse at center,#1b2350 0%,#0b1026 70%);overflow:hidden;touch-action:none}
+  body{display:flex;align-items:center;justify-content:center}
+  canvas{outline:none;display:block;image-rendering:auto;border-radius:10px;box-shadow:0 10px 40px rgba(0,0,0,.5)}
+  #rotate{display:none;position:fixed;inset:0;z-index:9;background:#0b1026;color:#ffd166;font:800 22px system-ui,sans-serif;text-align:center;align-items:center;justify-content:center;flex-direction:column}
+  #rotate div{font-size:64px;animation:spin 2s ease-in-out infinite}
+  @keyframes spin{0%,20%{transform:rotate(0)}60%,100%{transform:rotate(90deg)}}
+  @media (orientation:portrait) and (pointer:coarse){#rotate{display:flex}}
+</style>
+</head>
+<body>
+<canvas id="game" width="960" height="540" tabindex="0"></canvas>
+<div id="rotate"><div>↻</div><p>Turn your phone sideways to play</p></div>
+<script type="module" src="./src/game.js"></script>
+<script type="module" src="./anna/ai-night.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+#ai-modal{position:fixed;inset:0;z-index:20;display:flex;align-items:center;justify-content:center;background:rgba(6,8,26,.72);font:15px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#f1f2fb}
+#ai-modal[hidden]{display:none}
+.ai-card{width:min(640px,94vw);max-height:92vh;overflow:auto;background:linear-gradient(180deg,#24104a,#120c2e);border:2px solid #c77dff;border-radius:18px;box-shadow:0 20px 60px rgba(0,0,0,.6);padding:18px 22px}
+.ai-head{display:flex;gap:14px;align-items:center;margin-bottom:8px}
+.ai-crown{font-size:44px;line-height:1}
+.ai-head h2{margin:0;font-size:24px;color:#ffd166}
+.ai-head p{margin:2px 0 0;color:#d9d3ff}
+.ai-taunt{font-style:italic;color:#ffb3c7!important}
+.ai-note,.ai-verdict{background:rgba(255,255,255,.06);border-radius:10px;padding:8px 12px;margin:8px 0}
+.ai-card label{display:block;margin:10px 0 4px;font-weight:700}
+.ai-card h3{margin:12px 0 2px;font-size:15px;color:#80ed99}
+#ai-wish{width:100%;box-sizing:border-box;border-radius:10px;border:1px solid #7b2cbf;background:#0d0a24;color:#fff;padding:8px 10px;font:inherit;resize:vertical}
+.ai-chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.ai-chip{border:1px solid #7b2cbf;background:#2c1660;color:#e8dcff;border-radius:999px;padding:4px 10px;font:inherit;font-size:13px;cursor:pointer}
+.ai-chip:hover{background:#41208a}
+.ai-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.ai-btn{border:0;border-radius:12px;padding:10px 16px;font:inherit;font-weight:800;cursor:pointer;background:#f3e6c4;color:#2a1a00}
+.ai-btn:hover{filter:brightness(1.08)}
+.ai-primary{background:linear-gradient(180deg,#ffe27a,#ffb703)}
+.ai-fine{font-size:12px;color:#a9a4cc;margin:10px 0 0}
+.ai-scheme{margin:6px 0;padding-left:20px}
+.ai-scheme li{margin:3px 0}
+.ai-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}
+.ai-stats div{background:rgba(255,255,255,.07);border-radius:10px;padding:6px 8px;text-align:center}
+.ai-stats b{display:block;font-size:16px}
+.ai-stats span{font-size:12px;color:#b8b3d9}
+.ai-dim{opacity:.25}
+.ai-loading{text-align:center;padding:20px 0}
+.ai-loading h2{color:#ffd166;margin:10px 0 4px}
+.ai-spin{font-size:54px;display:inline-block;animation:aispin 1.2s ease-in-out infinite}
+@keyframes aispin{0%,100%{transform:rotate(-12deg) scale(1)}50%{transform:rotate(12deg) scale(1.15)}}
